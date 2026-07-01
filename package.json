@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "testing-skip-base-branch",
+  "description": "Minimal Percy Selenium JS example - 2 snapshots at 1 width",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx percy exec -- node tests/test.js"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.31.13",
+    "@percy/selenium-webdriver": "^2.2.5",
+    "http-server": "^14.1.1",
+    "selenium-webdriver": "^4.15.0"
+  }
+}
