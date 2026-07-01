@@ -15,5 +15,5 @@ jobs:
       - name: Run Percy build
         run: npm test
         env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-          PERCY_CLIENT_API_URL: https://staging.percy.dev/api/v1/
+          PERCY_TOKEN: web_6c86991a228357d8a47cc8c6e64d3edf42d0a1d86f511c605053d2a62198af5e
+          PERCY_CLIENT_API_URL: https://percy.io/api/v1/
